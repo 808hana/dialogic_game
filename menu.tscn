@@ -1,0 +1,115 @@
+[gd_scene load_steps=6 format=3 uid="uid://do82j3ok3lfj4"]
+
+[ext_resource type="Script" path="res://menu.gd" id="1_edclr"]
+[ext_resource type="Texture2D" uid="uid://cootq0ouyu07w" path="res://images/moded/game_bg.png" id="2_l33bs"]
+[ext_resource type="FontFile" uid="uid://dt36u7abthjas" path="res://fonts/IMMORTAL.ttf" id="3_yq6fu"]
+[ext_resource type="Texture2D" uid="uid://blcnntbnorqol" path="res://images/moded/game_stripe.png" id="4_le1wc"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_gyo2g"]
+bg_color = Color(0.0410551, 0.35937, 0.415809, 1)
+
+[node name="CanvasLayer" type="CanvasLayer"]
+script = ExtResource("1_edclr")
+
+[node name="Panel" type="Panel" parent="."]
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 1080.0
+grow_horizontal = 2
+theme_override_styles/panel = SubResource("StyleBoxFlat_gyo2g")
+
+[node name="TextureRect" type="TextureRect" parent="Panel"]
+layout_mode = 1
+offset_right = 1920.0
+offset_bottom = 1080.0
+texture = ExtResource("2_l33bs")
+expand_mode = 2
+
+[node name="Button" type="Button" parent="."]
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -824.0
+offset_top = -115.0
+offset_right = -516.0
+offset_bottom = 5.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_color = Color(1, 0.839216, 0.2, 1)
+theme_override_colors/font_pressed_color = Color(0.466667, 0.160784, 0.0823529, 1)
+theme_override_colors/font_hover_color = Color(0.568627, 0.180392, 0.0901961, 1)
+theme_override_fonts/font = ExtResource("3_yq6fu")
+theme_override_font_sizes/font_size = 70
+text = "HRÁT"
+flat = true
+
+[node name="TextureRect" type="TextureRect" parent="Button"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -154.0
+offset_top = -6.0
+offset_right = 154.0
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("4_le1wc")
+expand_mode = 1
+
+[node name="Exit" type="Button" parent="."]
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -906.0
+offset_top = -414.0
+offset_right = -421.0
+offset_bottom = -294.0
+grow_horizontal = 2
+grow_vertical = 0
+theme_override_colors/font_color = Color(1, 0.839216, 0.2, 1)
+theme_override_colors/font_pressed_color = Color(0.466667, 0.160784, 0.0823529, 1)
+theme_override_colors/font_hover_color = Color(0.568627, 0.180392, 0.0901961, 1)
+theme_override_fonts/font = ExtResource("3_yq6fu")
+theme_override_font_sizes/font_size = 70
+text = "UKONČIT"
+flat = true
+
+[node name="TextureRect" type="TextureRect" parent="Exit"]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -242.5
+offset_top = -6.0
+offset_right = 242.5
+grow_horizontal = 2
+grow_vertical = 0
+texture = ExtResource("4_le1wc")
+expand_mode = 1
+
+[node name="Label" type="Label" parent="."]
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -842.0
+offset_top = 88.0
+offset_right = -485.0
+offset_bottom = 212.0
+grow_horizontal = 2
+theme_override_colors/font_color = Color(0.996078, 0.686275, 0.184314, 1)
+theme_override_colors/font_shadow_color = Color(0.192157, 0.105882, 0.0352941, 1)
+theme_override_fonts/font = ExtResource("3_yq6fu")
+theme_override_font_sizes/font_size = 100
+text = "MENU
+"
+
+[connection signal="pressed" from="Button" to="." method="_on_button_pressed"]
+[connection signal="pressed" from="Exit" to="." method="_on_exit_pressed"]
