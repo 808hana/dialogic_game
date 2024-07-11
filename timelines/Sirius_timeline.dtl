@@ -1,0 +1,63 @@
+[background arg="res://images/moded/mountain_top.png" fade="0.0"]
+join witch center
+witch: Válečník.
+leave witch
+join main_character (MAin_hero_cild_cropped) right
+V chlapci se šířil pocit uspokojení.
+main_character (MAin_hero_cild_cropped): Tohle je jedna z nejlepších rolí. Konečně ho uznají. Musejí, teď když dostal roli válečníka.
+join priest left
+priest: Budiž ti dáno jméno Sirius.
+leave priest
+leave main_character
+A s těmito slovy se chlapec, teď již válečník Sirius, vydal na cestu dolů z hory.
+set {main_char_name} = "Sirius"
+[background arg="res://images/Default_inside_wooden_medieval_house_anime_style_0.jpg" fade="0.0"]
+Když se jeho rodiče dozvěděli, jakou roli dostal, byli štěstím bez sebe. I vesničané se na něj začali dívat jinak, když to na druhý den oznámili.
+[background arg="res://images/Default_muscle_men_in_light_leather_medieval_anime_fantasy_clo_1.jpg" fade="0.0"]
+Sirius nastoupil do výcviku k válečníkům. Vedlo se mu výborně, vlastně byl jedním z nejlepších. Jeho život se značně změnil.
+[background arg="res://images/moded/sirius_girl.png" fade="0.0"]
+Měl teď plno poviností ale take přátel. Dokonce měl i několik obdivovatelek. Stal se z něch statný mládenec.
+Ale jeho štěstí mělo I svůj konec.
+[background arg="res://images/Default_medieval_village_0.jpg" fade="0.0"]
+Jednou se vesnicí začala šírit neznámá choroba. Léčitelé ji nedokázali vyléčit.
+[background arg="res://images/Default_inside_wooden_medieval_house_anime_style_0.jpg" fade="0.0"]
+Zrovna byl na návštěvě u svých rodičů, když v tom někdo začal bušit na dveře. Jeho matka šla otevřít.
+Sirius ji uslyšel vykřiknout. Následovat hluk a už bylo u nich doma plno vesničanů.
+[background arg="res://images/moded/angry_villagers.png" fade="0.0"]
+Jeden držel jeho matku jako rukojmí. Sirius se na ně okřikl\:
+join main_character (MAIN_hero_Sirius) rightmost
+main_character (MAIN_hero_Sirius): Co to má znamenat!
+join villager center
+villager: To oni jsou důvodem té nemoci!
+Ukázal prstem na jeho rodiče.
+main_character (MAIN_hero_Sirius): To je přece nesmysl. A co vůbec chcete dělat?
+villager: Zabijeme je!
+- Najít příčinu nemoci a očistit tak své rodiče
+	main_character (MAIN_hero_Sirius): Počkejte! Dokážu vám, že za to nemůžou. Najdu pravou příčinu. Jen mi dejte čas!
+	villager: Máš na to tři dny!
+	leave villager
+	leave main_character
+	jump Sirius_investigation/
+- Poprat se s vesničany
+	Sirius se vrhl na nejbližšího vesinačana a dal mu pěstí do nosu.
+	Všichni se vrhli na Siriuse, ale ten byl o krok před nimi a jen tak se nenechal. Párkrát schytal úder, ale nakonec je přepral a vyhodil ze dveří.
+	[background arg="res://images/moded/nighttime.png" fade="0.0"]
+	Když vyhazoval posledního všiml si temné postavy, která postávala opodál.
+	join Danadas left
+	main_character (MAIN_hero_Sirius): Co tady chceš? Chceš snad taky výprask?
+	Postava zvedla ruce do vzduchu\:
+	Danadas: Nikoliv. Přišel jsem za vaším knězem, ale zdá se, že to již není třeba. Těšilo mě, Saore.
+	leave Danadas
+	Sirius tam ještě chvíli stál a přemýšlel proč mu ten cizinec řekl Saor. Pak to ale nechal být a už si na něj nikdy nevzpomněl.
+	leave main_character
+	[background arg="res://images/Default_medieval_village_0.jpg" fade="0.0"]
+	Ještě párkrát musel odhánět vesničany od svých rodičů, ale nakonec nemoc ustoupila.
+	[background arg="res://images/Default_green_anime_grass_many_white_gravestones_anime_style_b_1.jpg" fade="0.0"]
+	Ztráty však byli obrovské.
+	[background arg="res://images/Default_village_leader_strong_older_man_in_medieval_clothing_s_1.jpg" fade="0.0"]
+	Vůdce vesnice vyslal pár důvěrných lidí vyjednávat s vedlejší vesnicí. Neměli totiž dostatek lidí, aby se uživili sami.
+	Mezi nimi byl i Sirius. Nakonec byl to jeden z nejlepších válečníků.
+	[background arg="res://images/Default_medieval_village_0.jpg" fade="0.0"]
+	Vyjednávání bylo úspěšné a zanedlouho se vesnici zase začalo dařit.
+	[signal arg="Finish"]
+	[end_timeline]

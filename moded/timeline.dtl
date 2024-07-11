@@ -1,0 +1,49 @@
+[music path="res://music/Two Steps From Hell - Emerald Princess (feat. Chris Bleth, Merethe Soltvedt).mp3" fade="0.0" volume="-1.0"]
+[background arg="res://images/Default_medieval_village_3.jpg" fade="0.0"]
+Vesnice, kde ženy jsou čarodějnice a muži vlkodlaci. Tak to vždy bylo. Ale jednou se narodil chlapec, který nebyl vlkodlakem.
+[background arg="res://images/Default_small_boy_sitting_in_the_corner_abandoned_by_other_kid_0.jpg" fade="0.0"]
+Ne, byl čaroděj. Byl to krutý osud, ale chlapci se přese všechna úskalí podařilo najít někoho, kdo ho miloval.
+[background arg="res://images/Default_man_women_small_wedding_medieval_anime_white_purple_gr_1.jpg" fade="0.0"]
+Tato čarodějka ho milovala natolik, že si ho vzala a měli spolu dítě.
+[background arg="res://images/Default_small_baby_sleeping_with_closed_eyes_wrapped_in_white_1.jpg" fade="0.0"]
+Byl to chlapec. A nebyl vůbec obyčejný.
+[wait_input]
+- Chlapec je vlkodlak
+	[background arg="res://images/Default_medieval_village_0.jpg" fade="0.0"]
+	set {first_choice} = "Sirius"
+	Všechny ve vesnici přešla nervozita, když se ukázalo, že chlapec se narodil jako vlkodlak. Bylo zvláštní, že čaroději a čarodějce se narodil vlkodlak, ale tak to mělo být už od začátku, všichni muži mají být vlkodlaky. To jeho otec byl ten divný.
+- Chlapec je čaroděj a vlkodlak
+	[background arg="res://images/Default_medieval_village_1.jpg" fade="0.0"]
+	set {first_choice} = "Saor"
+	Všechny ve vesnici přešla nervozita, když se ukázalo, že chlapec se narodil jako vlkodlak. Bylo zvláštní, že čaroději a čarodějce se narodil vlkodlak, ale tak to mělo být už od začátku, všichni muži mají být vlkodlaky. To jeho otec byl ten divný. Jak šeredně se spletli.
+- Chlapec je dosud neznámá bytost, odlišná od ostatních ve vesnici
+	[background arg="res://images/Default_medieval_village_2.jpg" fade="0.0"]
+	set {first_choice} = "Atol"
+	Vesnicí se rychle roznesla zpráva, že chlapec není vlkodlak. Obavy vesničanů se naplnily. Chlapec je divný po svém otci. Ale v očích chlapce nebyly po magii žádné známky.
+[background arg="res://images/Default_medieval_village_3.jpg" fade="0.0"]
+Čas plynul a chlapec rostl jako z vody. Blížil se obřad, který měl rozhodnout o jeho roli ve vesnici.
+Každý nějakou měl. Někdo byl lovcem, někdo léčitel, někdo byl válečníkem či dokonce vůdcem. A potom tady byly samozřejmě i méně působivé role jako byl sběrač, kovář, pekař a rybář.
+[background arg="res://images/Default_standing_middle_aged_anime_man_that_look_like_an_pries_0.jpg" fade="0.0"]
+Ale pak tady byla ta nejhorší role ze všech\: kněz. Kromě přidělené role ve vesnici, také konečně dostane jméno.
+[background arg="res://images/Default_green_scenery_with_tall_mountain_at_sunrise_in_anime_s_0.jpg" fade="0.0"]
+Obřad se konal na vrcholu hory poblíž vesnice.
+Ten, kdo se nestihl dostat na vrchol, byl z obřadu vyloučen a musel čekat rok, aby se mohl zúčastnit dalšího.
+Pokud však se někomu třikrát nepodařilo dostat se na vrcholek hory, byl z vesnice vyloučen.
+[background arg="res://images/moded/mountain_top.png" fade="0.0"]
+S úsvitem obřad začal. Spolu s chlapcem se obřadu účastnilo dalších pět dětí. Dvě dívky a tři chlapci.
+Obřad vedl kněz, ale role přiřazovala stará čarodějnice. Chlapec ji až doteď nikdy neviděl.
+join main_character (MAin_hero_cild_cropped) right
+main_character (MAin_hero_cild_cropped): Ta ježibaba je snad hluchá i slepá. Snad jí zbyla ještě trocha zdravého rozumu a neskončím jako kněz.
+leave main_character
+Obřad byl kupodivu krátký, čarodějnice vždy prstem ukázala na jedno z dětí a řekla roli. Potom kněz bouchl do bubnu potaženém kůží a řekl\:
+join priest left
+priest: Budiž ti dáno jméno...
+leave priest
+A tím to vše skončilo.
+Když čarodějnice  ukázala svým křivým prstem na chlapce dlouhou chvíli mlčela. U všech ostatních řekla roli hned, ale u chlapce váhala. Potom konečně promluvila.
+if {first_choice} == "Sirius":
+	jump Sirius_timeline/
+if {first_choice} == "Saor":
+	jump Saor_timeline/
+if {first_choice} == "Atol":
+	jump Atol_timeline/

@@ -1,0 +1,53 @@
+[background arg="res://images/moded/mountain_top.png" fade="0.0"]
+join witch center
+witch: Kněz.
+leave witch
+Chlapci ztuhl obličej.
+join main_character (MAin_hero_cild_cropped) right
+main_character (MAin_hero_cild_cropped): Tohle se přece nemůže dít, nebo ano?
+Ale dělo se to. Dostal roli, kterou nikdo nechtěl.  Kněz se na něj usmál.
+join priest left
+priest: V tomto případě zdědíš mé jméno. Budiž ti dáno jméno …
+Jméno, které mu kněz dal, slyšel jen on. Jméno kněze je totiž tajemstvím. Nikdo ho nesmí znát, jinak prý ztratí svou váhu.
+leave priest
+Chlapci nezbylo nic jiného než přijmout svůj osud. Už se otáčel na cestu dolů, když čarodějnice promluvila.
+join witch left
+witch: Osud je zvláštní věc, nenech se zmást. Najde si tě ať už se vydáš kamkoli.
+main_character (MAin_hero_cild_cropped): Co to plácá za nesmysly?
+A pak se na něj usmála.
+leave witch
+Bylo tak zvláštní vidět ji se usmívat, že jí ani neodpověděl. Místo toho se otočil a celou cestu dolů seběhl.
+leave main_character
+set {main_char_name} = "Mladý Kněz"
+Když se jeho rodiče dozvěděli, jakou roli dostal, nastalo dlouhé ticho. Potom jeho otec promluvil. “Chtěl jsem pro tebe víc, promin mi to” Chlapec se cítil hrozně, jeho otec za to přeci nemohl, to ta stará čarodějnice. Ale z nějakého důvod se na ni nedokázal zlobit. Její poslední poznámka mu stále ležela v paměti a nechtěla ho opustit.\
+\
+Další den nastoupil do učení ke knězi. Ten jej uvítal a začal vysvětlovat proč potřebují kněze, když nemají boha. Kněz toho řekl vice, ale chlapec si to v hlavě zapamatoval jako krátkou poučku\: Nic není jisté. Povinosti kněze byly kupodivnu poměrně náročné. Když někdo zemřel musel zjistit proč pokud příčina byla neznámá, musel připravit a vést pohřební ritual, vest záznamy o všech živých I mrtvých, dokumentovat dění ve vesnici a obecně si udržovat o všem přehled. Postupně mu přibývali povinosti, až se z něj stal plnohodnotný kněz.\
+Kapitola 2\: Cizinec – Dánadas (Osud)\
+Linka B\
+Tu noc měl chlapec, teď už mladý kněz, neklidné sny. Venku byla bourka a občas uhodil v dálce blesk. Ale to nebyl důvod jeho neklidného spaní. Zdálo se mu znovu o té stare čarodějnici a o jejích posledních slovech k němu “Osud si tě najde ať už se vydáš kamkoli. “ Dlouho si na to nevzpomněl, ale posledních pár dní to nemohl dostat z hlavy. Ze spánku ho vytrhlo bušení na dveře. Napůl ve spánku šel otevřít dveře. Venku stál muž v černém plášti a kapucí, tak že mu nebylo vidět do obličeje. „Přejete si?“ zeptal se cizince. „Mohu se u vás schovat před deštěm?“ zeptal se cizinec. \
+Volba\:\
+I.	Pustit ho dál.\
+•	Kněz přikývl a umožnil mu vejít dovnitř.\
+II.	Nepustit ho.\
+•	„Nemyslím že je to dobrý, „ v tom udeřil blesk těsně vedle nich. Kněz odstoupil od dveří a pustil cizince dál.\
+Nabídl cizinci čaj na a polévku na zahřátí. Ten s vděkem přijal. Když dojedl zeptal se kněze\: „Proč je váš dům tak daleko od ostatních?“ Kněz chvíli mlčel, ale potom odpověděl\: „To proto, že jsem kněz. “\
+„Chápu, “ přikývl cizinec. Venku začalo svítat a bouřka už přešla. „Vypadá, že už je po bouřce. Měl bych se vydat na cestu. Ale předtím než půjdu tady, vezmi si ji„ cizinec držel v natažené ruce podivnou knihu. „Co to je?“ zeptal se kněz. „Kniha přece jen ber“ a tak si ji kněz vzal. „Jak se jmenuješ?“ zeptal se ještě kněz. „Dánadas„ \
+Dlouhou dobu se na knihu prášilo a možná by na ni i kněz zapomněl, kdyby při procházení archivu nenarazil na jednu starou knihu pověstí. Rychle jí listoval, když v tom narazil na překreslenou kopii staré rytiny. „Dánadas“ byl nápis pod rytinou.  A tehdy to knězi došlo, Dánadas nebylo jméno ale slovo ze starého jazyka, které znamenalo osud. Vyběhl nahoru a vzal do rukou knihu, kterou mu tehdy daroval cizinec. Byla to kniha kouzel. Starých a mocných, ale také velice temných. \
+I.	Naučit se kouzla z knihy. Mohla by se jednou hodit.\
+II.	Zahodit knihu.\
+Lekl se a knihu zahodil. Co ale nevěděl bylo, že ji někdo našel. Neměl sice žádné nadání pro magii, ale přesto si ji nechal. Dlouho se nic nedělo a vše plynulo jako doposud.\
+Jednou se vesnicí začala šírit neznámá choroba. Léčitelé ji nedokázali vyléčit.\
+Zoufalí vesničané se uchýlil k poslednímu řešení, které měli. Najít někoho, komu to dát za vinu a doufat, že se tím všechno vyřeší. Jeho matku upálili a jeho otce popravili. Dozvěděl se to, když jejich těla přivezli na káře k pohřbu. Byl zmatený. “Co se stalo?” ptal se vesničanů, kteří káru přivezli. Ale odpověď nedostal. Místo toho mu jeden z vesničanů hodil provaz kolem krku. Začali ho táhnout ke stromu na okraji hřbitova. Kněz se ještě stihl podívat na káru, na těla svých rodičů. A tam v káře, v hromádce popela ležela ta kniha. Ležel tam jeho osud.\
+III.	Spálit knihu.\
+Rozhodl se, že nejlepší bude knihu spálit. Něco takového by se nikdo učit neměl. Dlouho se nic nedělo a vše plynulo jako doposud. Jednou se vesnicí začala šírit neznámá choroba. Léčitelé ji nedokázali vyléčit. Zoufalí vesničané se uchýlil k poslednímu řešení, které měli. Najít někoho, komu to dát za vinu a doufat, že se tím všechno vyřeší. Jeho matku upálili a jeho otce popravili. Dozvěděl se to, když jejich těla přivezli na káře k pohřbu. Byl zmatený, smutný, pln vzteku ale nejvíc ze všeho, byl sám. Tehdy si vzpomněl na tu knihu. Možná, že kdyby ji tehdy nespálil, tak by mohl něco udělat. Ale čas nelze vrátit zpět. Zůstal sám až do konce. Osud mu protekl skrz prsty.\
+Kněz se rozhodl se kouzla z knihy naučit. A také se rozhodl, že už s takovou mocí nepotřebuje moc jména, které mu kněz dal. Odteď si už neříkal kněz, ale svým jménem, Saor. Co však nevěděl, že to jméno mu nemělo poskytovat moc, ale ochranu. A tu právě ztratil. Čím více studoval kouzla z knihy tím více propadal temnotě. Ale nebyl šílený. Jen si začal uvědomovat, jak byl hloupý. Jeho magická moc neznala hranic. Spolu s tělem vlkodlaka to z něj dělalo nepřemožitelného čaroděje. \
+Ale i přes tu všechnu tu moc, kterou disponoval, nedokázal zvrátit osud. Jejich vesnici postihla neznámá choroba. Léčitelé ji nedokázali vyléčit. On by ji mohl vyléčit kouzlem z knihy. Ale dřiv, než to mohl navrhnout se lidé otočil k jinému řešení. Najít někoho, komu to dát za vinu a doufat, že se tím všechno vyřeší. Jeho matku upálili a jeho otce popravili. Dozvěděl se to, když jejich těla přivezli na káře k pohřbu. Byl zmatený, smutný, pln vzteku ale nejvíc ze všeho, byl sám.\
+Své rodiče pohřbil a teď stál na hřbitově pod jasným modrým nebem. Všechny ty emocec vyprchaly a zůstalo jen prázdno.\
+I.	Pomstit své rodiče.\
+Kněz si vzpomněl na všechno, co se za celé ty roku stalo. Jak se ho stranili, jak jej přehlíželi, jak zacházeli s jeho rodinou. A teď mu je k tomu všemi ještě vzali. Zabili je. Chladnokrevně a nemilosrdně a proč? Protože si mysleli, že jeho otec může za nějakou nemoc? Ne. Byl to jen důvod jak se ho zbavit. To si alespoň myslel. Ale bylo to jedno. Byli mrtví, zabili je a nic už mu je nevrátí. \
+Saor vešel do vesnice zahalený do temné magie. Koho uviděl toho proklel, zapalovat a ničil vše, co mu stálo v cestě. Hluk přitahoval pozornost vesničanů až se celá vesnice sešla na nádvoří před domem vůdce vesnice. Současný vůdce vesnici byl také přitáhnut hlukem a vyšel ven. Rozhlédl se po vesničanech a jeho zrak dopadl na Saora. „Co se to tu děje?“ zeptal se ho. Saor mu odpověděl\: „Zaplatíte za to co jste provedli! Za všechno, nejen za vraždu mých rodičů. Je čas zaplatit. Váš osud si vás právě našel.“ S těmi slovy seslal na celou vesnici mocnou kletbu. Spoutal jejich duše žhavými okovy k vesnici s půdou prosáklou nevinnou krví. Kletba způsobila, že ženy prožívaly upálení zaživa a muži se zase museli dívat jak jejich milovaní hoří zatímco jim pomalu kat projížděl sekerou skrz krk, dokud jim hlava úplně neodpadla. A potom znovu a znovu. Saor se díval na vesničany pohlcené bolestí. Byl se svým dílem spokojen. Vrátil se zpět do svého domu na okraji vesnice a spokojeně listoval záhadnou knihou kouzel zda mu odhalí další ze svých tajemství.\
+\
+II.	Pokusit se je oživit.\
+Saor si vzpomněl, že v té knize od cizince viděl kouzlo, které zmiňovalo oživování mrtvých. Za zkoušku to stojí, řekl si. Seslal tedy kouzlo a čekal. Ale nic se nedělo. Seslal ho ještě několikrát, ale stale nic. Ale nedokázal to vzdát. Sesílal kouzlo dokud nepadl vyčerpáním. \
+\
+Saor se probudil. Byla tma a v dálce byl slyšet křik vesničanů. Podíval se směrem k vesnici a viděl ji v plamenech. Rzchle se zvedl a běžel k plamenům. Už byl skoro ve středu vesnice, když uviděl co ten hluk a chaos způsobilo. Jeho rodiče vraždili vesničany. Byli to vůbec jeho rodiče? Jejich pohledy byli prázdné a pohyby trochu trhané. A nebyli tam jenom oni. Viděl ještě další vesničany, kteří měli být mrtvý ale teď se tady procházeli a zabíjeli. Saor si z hrůzou uvědomil, co vlastně udělal. Oživil je, to ano, ale už to nebyli oni. Nedokázal je zastavit a stejně už bylo pozdě, většina vesničanů buď uhořela nebo jim padla za oběť. Saor sledoval jak bezcílně chodí okolo, ale na něj nezaútočili. Bylo to tím, že to on je oživil? Rozhodl se jít do svého domu na okraji vesnice a skuzit najít detail o kouzlu, které seslal.

@@ -1,0 +1,26 @@
+[background arg="res://images/moded/mountain_top.png" fade="0.0"]
+join witch center
+witch: Rybář.
+leave witch
+Chlapci trochu povadla ramena, tohle nebyla role, kterou chtěl. Na druhou stranu si nebyl jistý, jakou roli by si vybral, kdyby mohl. Možná, že to tak opravdu má být.
+join priest left
+priest: Budiž ti dáno jméno Atol.
+leave priest
+A s těmito slovy se chlapec, teď již Atol, vydal na cestu dolů z hory.
+set {main_char_name} = "Atol"
+[background arg="res://images/Default_inside_wooden_medieval_house_anime_style_0.jpg" fade="0.0"]
+Když se jeho rodiče dozvěděli, jakou roli dostal, byli poměrně skleslý. Obzvlášť jeho matka. Bála se o něj, moře je nepředvídatelné a nárokovalo si už mnoho životů. Na druhou stranu jeho otec se ho snažil podpořit.
+join father left
+father: Budeš skvělý. Je to náročné, ale je to poctivá práce
+Atol si ale tolik jistý nebyl.
+leave father
+[background arg="res://images/Default_beach_with_white_almost_silver_sand_clear_blue_water_a_0.jpg" fade="0.0"]
+Další den nastoupil do učení. Bylo to náročné, na Atola až moc.
+join main_character (MAIN_hero_Atol) center
+Neměl takovou sílu ani výdrž jako ostatní, nebyl vlkodlak.
+Každým dnem cítil jak se ta propast zvětšuje.
+leave main_character
+[background arg="res://images/Default_dark_sea_in_storm_drowning_young_man_only_his_reaching_0.jpg" fade="0.0"]
+Až ho jednou pohltila. Spadl přes palubu a spolklo ho bezedné moře.
+[signal arg="Finish"]
+[end_timeline]
